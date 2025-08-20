@@ -114,6 +114,18 @@ Keywords: ['ai', 'transforming', 'industries', 'automating', 'processes']
 
 ==============================================================================================
 
+💡 What I Learned
+
+- How to integrate Hugging Face Transformer models with Flask.
+
+- Handling user input securely and efficiently for NLP tasks.
+
+- Building a clean, responsive frontend using Bootstrap.
+
+- End-to-end project development using MVC architecture and Agile practices.
+
+==============================================================================================
+
 🔜 Future Improvements
 
 Add a word cloud visualisation for extracted keywords.
