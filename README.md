@@ -59,7 +59,7 @@ Step 1: Clone the repo
 git clone https://github.com/your-username/AI-Text-Analysis-App.git
 cd AI-Text-Analysis-App
 
-Step 2: Create the Visual Enviroment (This step is optional but I recommend it)
+Step 2: Create the Virtual Enviroment (This step is optional but I recommend it)
 
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
