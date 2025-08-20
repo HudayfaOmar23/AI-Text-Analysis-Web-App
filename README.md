@@ -42,19 +42,20 @@ Frontend: HTML, CSS, Bootstrap
 
 📂 Project Structure
 
+```text
 AI-Text-Analysis-App/
-│
-├── app.py                # Flask backend
-├── venv/                 # Python virtual environment
-├── templates/
-│   └── index.html        # Frontend (HTML + Bootstrap, Dark Mode)
-├── static/
-│   ├── css/
-│   │   └── style.css     # Custom CSS (dark mode, styling)
-│   └── images/
-│       └── favicon.ico   # Favicon icon
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+├─ app.py # Flask backend
+├─ venv/ # Python virtual environment
+├─ templates/
+│ └─ index.html # Frontend (HTML + Bootstrap, Dark Mode)
+├─ static/
+│ ├─ css/
+│ │ └─ style.css # Custom CSS (dark mode, styling)
+│ └─ images/
+│ └─ favicon.ico # Favicon icon
+├─ requirements.txt # Python dependencies
+└─ README.md # Project documentation
+```
 
 ==============================================================================================
 
