@@ -42,13 +42,21 @@ Frontend: HTML, CSS, Bootstrap
 
 📂 Project Structure
 
+
+
 AI-Text-Analysis-App/
 │
-├── app.py                # Flask backend
+├── app.py                    # Flask backend
+├── venv/                     # Python virtual environment
 ├── templates/
-│   └── index.html        # Frontend (HTML + Bootstrap)
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+│   └── index.html            # Frontend (HTML + Bootstrap, Dark Mode)
+├── static/
+│   ├── css/
+│   │   └── style.css         # Custom CSS (dark mode, styling)
+│   └── images/
+│       └── favicon.ico       # Favicon icon
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
 
 ==============================================================================================
 
@@ -111,6 +119,11 @@ Keywords: ['ai', 'transforming', 'industries', 'automating', 'processes']
 ==============================================================================================
 📸 Screenshots
 
+Homepage of the app:  
+![Homepage](screenshots/homepage.png)
+
+Analysis result example:  
+![Analysis Result](screenshots/analysis_result.png)
 
 ==============================================================================================
 
