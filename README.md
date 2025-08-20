@@ -60,6 +60,14 @@ AI-Text-Analysis-App/
 
 ==============================================================================================
 
+🎨 Dark Mode & Favicon
+
+Dark mode is enabled by default via static/css/style.css.
+
+Favicon is located in static/images/favicon.ico and linked in templates/index.html.
+
+==============================================================================================
+
 🔓 Installation & Setup
 
 Step 1: Clone the repo
@@ -67,7 +75,7 @@ Step 1: Clone the repo
 git clone https://github.com/your-username/AI-Text-Analysis-App.git
 cd AI-Text-Analysis-App
 
-Step 2: Create the Virtual Enviroment (This step is optional but I recommend it)
+Step 2: Create the Virtual Enviroment
 
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
