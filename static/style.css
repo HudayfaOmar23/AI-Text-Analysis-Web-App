@@ -18,4 +18,19 @@ button {
 
 button:hover {
     background-color: #333333;
+    color: #ffffff;
 }
+
+button:active {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+button:focus,
+button:active {
+    background-color: aqua;
+    color: #ffffff;
+    outline: none;
+    border-color: #1976d2;
+}
+
