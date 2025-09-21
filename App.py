@@ -15,7 +15,7 @@ summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 def extract_keywords(text, num_keywords=5):
-    # Basic keyword extraction (bag of words + frequency count)
+    # Basic keyword extraction (bag of words + frequency count + TF-IDF)
     words = re.findall(r'\w+', text.lower())
     filtered_words = [w for w in words if w not in stopwords.words('english')]
     common = Counter(filtered_words).most_common(num_keywords)
